@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns1:BoardTestXMLExport xmlns:ns1="http://tempuri.org/BoardTestXMLExport.xsd" testTime="2020-05-22T19:00:30.000+08:00" testerTestStartTime="2020-05-22T19:00:30.000+08:00" testerTestEndTime="2020-05-22T19:01:45.000+08:00" numberOfComponentsTested="3880" numberOfJointsTested="29392" numberOfIndictedComponents="3" numberOfIndictedPins="51" numberOfDefects="98" testStatus="Reviewed Passed" repairStatus="Reviewed Passed" repairStationId="8056vvts">
+    <ns1:BoardXML serialNumber="B77880215005400A" imageId="1" boardType="T6U-MB-00B0-F3H-DD-02" boardRevision="1590145305000" assemblyRevision="T6U-MB-00B0-F3H-DD-02"/>
+    <ns1:StationXML testerName="V810-8088S2" stage="v810"/>
+    <ns1:RepairEventXML repairStartTime="2020-05-22T19:01:55.000+08:00" repairEndTime="2020-05-22T19:02:46.000+08:00" repairOperator="c_admin" numberOfActiveDefects="0" numberOfActiveComponents="0" numberOfActivePins="0" numberOfFalseCalledDefects="98" numberOfFalseCalledComponents="3" numberOfFalseCalledPins="51" numberOfRepairedDefects="0" numberOfRepairedComponents="0" numberOfRepairedPins="0" numberOfRepairLaterDefects="0" numberOfRepairLaterComponents="0" numberOfRepairLaterPins="0" numberOfVariationOkDefects="0" numberOfVariationOkComponents="0" numberOfVariationOkPins="0"/>
+    <ns1:TestXML name="top:1:C822:[comp]">
+        <ns1:IndictmentXML indictmentType="Short - Opaque Chip Pad" algorithm="capacitor" subType="C0402" jointType="capacitor" imageFileName="top116701142x261814176_10464800x10464800_2_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:17.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Opaque Chip Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="C822" pin="0" packageId="C0402"/>
+            <ns1:MeasurementXML name="Short Length" value="0.20899999" units="millimeters"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Short - Opaque Chip Pad" algorithm="capacitor" subType="C0402" jointType="capacitor" imageFileName="top116701142x261814176_10464800x10464800_2_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:17.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Opaque Chip Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="C822" pin="0" packageId="C0402"/>
+            <ns1:MeasurementXML name="Short Thickness" value="0.11323925" units="millimeters"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="top:1:PC197:[comp]">
+        <ns1:IndictmentXML indictmentType="Short - Opaque Chip Pad" algorithm="capacitor" subType="C0805_H61" jointType="capacitor" imageFileName="top397055420x318767326_10464800x10464800_2_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:17.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Opaque Chip Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="PC197" pin="0" packageId="C0805_H61"/>
+            <ns1:MeasurementXML name="Short Length" value="0.304" units="millimeters"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Short - Opaque Chip Pad" algorithm="capacitor" subType="C0805_H61" jointType="capacitor" imageFileName="top397055420x318767326_10464800x10464800_2_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:17.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Opaque Chip Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="PC197" pin="0" packageId="C0805_H61"/>
+            <ns1:MeasurementXML name="Short Thickness" value="0.11423806" units="millimeters"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="top:1:U89:14">
+        <ns1:IndictmentXML indictmentType="Short - Pad" algorithm="gullwing" subType="QSOP16" jointType="gullwing" imageFileName="top148067348x402701626_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:20.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="U89" pin="14" packageId="QSOP16"/>
+            <ns1:MeasurementXML name="Short Length" value="0.076" units="millimeters"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Short - Pad" algorithm="gullwing" subType="QSOP16" jointType="gullwing" imageFileName="top148067348x402701626_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:20.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="U89" pin="14" packageId="QSOP16"/>
+            <ns1:MeasurementXML name="Short Thickness" value="0.05268289" units="millimeters"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:C942:[comp]">
+        <ns1:IndictmentXML indictmentType="Short - Opaque Chip Pad" algorithm="capacitor" subType="C0402_SMDC25_SM30" jointType="capacitor" imageFileName="bottom285046754x254827652_10464800x10464800_2_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:20.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Opaque Chip Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="C942" pin="0" packageId="C0402_SMDC25_SM30"/>
+            <ns1:MeasurementXML name="Short Length" value="0.076" units="millimeters"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Short - Opaque Chip Pad" algorithm="capacitor" subType="C0402_SMDC25_SM30" jointType="capacitor" imageFileName="bottom285046754x254827652_10464800x10464800_2_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:20.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Opaque Chip Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="C942" pin="0" packageId="C0402_SMDC25_SM30"/>
+            <ns1:MeasurementXML name="Short Thickness" value="0.10179959" units="millimeters"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:D11:2">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="leadLess" subType="LED_1921" jointType="leadLess" imageFileName="bottom39478538x445165600_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:20.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="D11" pin="2" packageId="LED_1921"/>
+            <ns1:MeasurementXML name="Center to Heel Thickness Percent" value="78.6254" units="percent of heel thickness"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:D24:1">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="leadLess" subType="SOD323" jointType="leadLess" imageFileName="bottom430575800x247501530_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:20.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="D24" pin="1" packageId="SOD323"/>
+            <ns1:MeasurementXML name="Fillet Length Percent of Nominal" value="64.486824" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:D55:3">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="leadLess" subType="LED3S_LTST-S326KFKGK_1" jointType="leadLess" imageFileName="bottom39917450x97167312_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:21.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="D55" pin="3" packageId="LED3S_LTST-S326KFKGK_1"/>
+            <ns1:MeasurementXML name="Fillet Length Percent of Nominal" value="67.694016" units="percent"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Insufficient - Pad" algorithm="leadLess" subType="LED3S_LTST-S326KFKGK_1" jointType="leadLess" imageFileName="bottom39917450x97167312_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:21.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Insufficient - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="D55" pin="3" packageId="LED3S_LTST-S326KFKGK_1"/>
+            <ns1:MeasurementXML name="Fillet Thickness Percent of Nominal" value="74.71559" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:D62:1">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="leadLess" subType="LED_1921" jointType="leadLess" imageFileName="bottom66823900x69515008_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:21.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="D62" pin="1" packageId="LED_1921"/>
+            <ns1:MeasurementXML name="Heel Thickness Percent of Nominal" value="65.90423" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:D62:2">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="leadLess" subType="LED_1921" jointType="leadLess" imageFileName="bottom66823900x68015138_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:23.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="D62" pin="2" packageId="LED_1921"/>
+            <ns1:MeasurementXML name="Heel Thickness Percent of Nominal" value="71.68695" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J5:20">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_36S4H6D_P0-75_LD_1" jointType="surfaceMountConnector" imageFileName="bottom220562758x439268101_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:24.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J5" pin="20" packageId="CON_36S4H6D_P0-75_LD_1"/>
+            <ns1:MeasurementXML name="Fillet Length Region Outlier" value="116.705864" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J14:7">
+        <ns1:IndictmentXML indictmentType="Insufficient - Pad" algorithm="surfaceMountConnector" subType="CON_F200S2H4D_P0-8W3_1" jointType="surfaceMountConnector" imageFileName="bottom88107473x318967732_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:24.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Insufficient - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J14" pin="7" packageId="CON_F200S2H4D_P0-8W3_1"/>
+            <ns1:MeasurementXML name="Fillet Thickness Percent of Nominal" value="72.79966" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J18:1">
+        <ns1:IndictmentXML indictmentType="Insufficient - Pad" algorithm="surfaceMountConnector" subType="HEADER2X10SXC" jointType="surfaceMountConnector" imageFileName="bottom172377180x65391404_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:24.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Insufficient - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J18" pin="1" packageId="HEADER2X10SXC"/>
+            <ns1:MeasurementXML name="Fillet Thickness Percent of Nominal" value="79.72559" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J18:3">
+        <ns1:IndictmentXML indictmentType="Insufficient - Pad" algorithm="surfaceMountConnector" subType="HEADER2X10SXC" jointType="surfaceMountConnector" imageFileName="bottom172377180x65391404_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:25.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Insufficient - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J18" pin="3" packageId="HEADER2X10SXC"/>
+            <ns1:MeasurementXML name="Fillet Thickness Percent of Nominal" value="82.16362" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J18:5">
+        <ns1:IndictmentXML indictmentType="Insufficient - Pad" algorithm="surfaceMountConnector" subType="HEADER2X10SXC" jointType="surfaceMountConnector" imageFileName="bottom172377180x65391404_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:25.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Insufficient - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J18" pin="5" packageId="HEADER2X10SXC"/>
+            <ns1:MeasurementXML name="Fillet Thickness Percent of Nominal" value="83.272644" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J18:7">
+        <ns1:IndictmentXML indictmentType="Insufficient - Pad" algorithm="surfaceMountConnector" subType="HEADER2X10SXC" jointType="surfaceMountConnector" imageFileName="bottom172377180x65391404_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:25.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Insufficient - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J18" pin="7" packageId="HEADER2X10SXC"/>
+            <ns1:MeasurementXML name="Fillet Thickness Percent of Nominal" value="84.80413" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J67:63">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_2" jointType="surfaceMountConnector" imageFileName="bottom111017130x60542544_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:26.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J67" pin="63" packageId="CON_F67S2H2D2S_P0-5W_2"/>
+            <ns1:MeasurementXML name="Center to Heel Thickness Percent" value="95.358574" units="percent of heel thickness"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J67:65">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_2" jointType="surfaceMountConnector" imageFileName="bottom111017130x60542544_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:26.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J67" pin="65" packageId="CON_F67S2H2D2S_P0-5W_2"/>
+            <ns1:MeasurementXML name="Center to Heel Thickness Percent" value="94.24143" units="percent of heel thickness"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J67:67">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_2" jointType="surfaceMountConnector" imageFileName="bottom111017130x60542544_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:27.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J67" pin="67" packageId="CON_F67S2H2D2S_P0-5W_2"/>
+            <ns1:MeasurementXML name="Center to Heel Thickness Percent" value="85.61145" units="percent of heel thickness"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J67:68">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom92417472x61317498_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:27.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J67" pin="68" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Heel Thickness Percent of Nominal" value="78.50967" units="percent"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom92417472x61317498_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:27.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J67" pin="68" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Fillet Length Percent of Nominal" value="81.7535" units="percent"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom92417472x61317498_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:27.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J67" pin="68" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Center to Heel Thickness Percent" value="90.203415" units="percent of heel thickness"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Short - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom92417472x61317498_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:27.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J67" pin="68" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Short Length" value="0.20899999" units="millimeters"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Short - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom92417472x61317498_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:27.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J67" pin="68" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Short Thickness" value="0.059320476" units="millimeters"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Insufficient - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom92417472x61317498_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:27.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Insufficient - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J67" pin="68" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Fillet Thickness Percent of Nominal" value="72.75486" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J67:69">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom113117202x61317498_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:27.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J67" pin="69" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Heel Thickness Percent of Nominal" value="74.091255" units="percent"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom113117202x61317498_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:27.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J67" pin="69" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Fillet Length Percent of Nominal" value="82.88544" units="percent"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom113117202x61317498_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:27.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J67" pin="69" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Center to Heel Thickness Percent" value="90.543724" units="percent of heel thickness"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Insufficient - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom113117202x61317498_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:27.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Insufficient - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J67" pin="69" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Fillet Thickness Percent of Nominal" value="71.507576" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J75:2">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_2" jointType="surfaceMountConnector" imageFileName="bottom74267521x68092440_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:28.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J75" pin="2" packageId="CON_F67S2H2D2S_P0-5W_2"/>
+            <ns1:MeasurementXML name="Heel Thickness Percent of Nominal" value="69.34676" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J75:6">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_2" jointType="surfaceMountConnector" imageFileName="bottom74267521x68092440_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:28.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J75" pin="6" packageId="CON_F67S2H2D2S_P0-5W_2"/>
+            <ns1:MeasurementXML name="Fillet Length Percent of Nominal" value="130.65573" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J75:8">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_2" jointType="surfaceMountConnector" imageFileName="bottom74267521x68092440_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:29.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J75" pin="8" packageId="CON_F67S2H2D2S_P0-5W_2"/>
+            <ns1:MeasurementXML name="Fillet Length Percent of Nominal" value="125.91756" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J75:10">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_2" jointType="surfaceMountConnector" imageFileName="bottom74267521x68092440_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:29.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J75" pin="10" packageId="CON_F67S2H2D2S_P0-5W_2"/>
+            <ns1:MeasurementXML name="Fillet Length Percent of Nominal" value="127.28194" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J75:14">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_2" jointType="surfaceMountConnector" imageFileName="bottom74267521x68092440_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:29.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J75" pin="14" packageId="CON_F67S2H2D2S_P0-5W_2"/>
+            <ns1:MeasurementXML name="Heel Thickness Percent of Nominal" value="64.641556" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J75:16">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_2" jointType="surfaceMountConnector" imageFileName="bottom74267521x68092440_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:29.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J75" pin="16" packageId="CON_F67S2H2D2S_P0-5W_2"/>
+            <ns1:MeasurementXML name="Heel Thickness Percent of Nominal" value="69.95229" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J75:68">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom69417518x61317498_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:29.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J75" pin="68" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Heel Thickness Percent of Nominal" value="77.391335" units="percent"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom69417518x61317498_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:29.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J75" pin="68" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Fillet Length Percent of Nominal" value="81.58873" units="percent"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom69417518x61317498_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:29.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J75" pin="68" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Center to Heel Thickness Percent" value="90.64894" units="percent of heel thickness"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Insufficient - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom69417518x61317498_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:29.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Insufficient - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J75" pin="68" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Fillet Thickness Percent of Nominal" value="71.92489" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J75:69">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom90117248x61317498_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:30.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J75" pin="69" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Heel Thickness Percent of Nominal" value="75.908905" units="percent"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom90117248x61317498_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:30.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J75" pin="69" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Center to Heel Thickness Percent" value="90.32465" units="percent of heel thickness"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Insufficient - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom90117248x61317498_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:30.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Insufficient - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J75" pin="69" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Fillet Thickness Percent of Nominal" value="73.20406" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J78:68">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom58117058x309267726_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:30.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J78" pin="68" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Center to Heel Thickness Percent" value="100.43677" units="percent of heel thickness"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom58117058x309267726_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:30.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J78" pin="68" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Heel Slope" value="0.38515225" units="NIL"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J78:69">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom37417328x309267726_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:31.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J78" pin="69" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Heel Thickness Percent of Nominal" value="68.3662" units="percent"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom37417328x309267726_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:31.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J78" pin="69" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Center to Heel Thickness Percent" value="95.88666" units="percent of heel thickness"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom37417328x309267726_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:31.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J78" pin="69" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Heel Slope" value="0.35805205" units="NIL"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom37417328x309267726_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:31.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J78" pin="69" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Sum of Heel and Toe Slopes" value="0.65180075" units="NIL"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom37417328x309267726_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:31.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J78" pin="69" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Sum of Slope Changes" value="1.4506315" units="NIL"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Insufficient - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom37417328x309267726_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:31.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Insufficient - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J78" pin="69" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Fillet Thickness Percent of Nominal" value="72.14892" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J80:68">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom81117520x309267726_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:31.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J80" pin="68" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Center to Heel Thickness Percent" value="93.978" units="percent of heel thickness"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom81117520x309267726_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:31.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J80" pin="68" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Heel Slope" value="0.4072554" units="NIL"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom81117520x309267726_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:31.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J80" pin="68" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Sum of Heel and Toe Slopes" value="0.7652072" units="NIL"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J80:69">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom60417790x309267726_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:31.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J80" pin="69" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Heel Thickness Percent of Nominal" value="75.45649" units="percent"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom60417790x309267726_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:31.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J80" pin="69" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Center to Heel Thickness Percent" value="94.798355" units="percent of heel thickness"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom60417790x309267726_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:31.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J80" pin="69" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Heel Slope" value="0.32898602" units="NIL"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom60417790x309267726_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:31.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J80" pin="69" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Sum of Heel and Toe Slopes" value="0.64108235" units="NIL"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom60417790x309267726_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:31.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J80" pin="69" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Sum of Slope Changes" value="1.6910652" units="NIL"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Insufficient - Pad" algorithm="surfaceMountConnector" subType="CON_F67S2H2D2S_P0-5W_3" jointType="surfaceMountConnector" imageFileName="bottom60417790x309267726_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:31.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Insufficient - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J80" pin="69" packageId="CON_F67S2H2D2S_P0-5W_3"/>
+            <ns1:MeasurementXML name="Fillet Thickness Percent of Nominal" value="77.202034" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J81:13">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="surfaceMountConnector" subType="CON_36S4H6D_P0-75_LD_1" jointType="surfaceMountConnector" imageFileName="bottom217032412x425107855_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:32.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J81" pin="13" packageId="CON_36S4H6D_P0-75_LD_1"/>
+            <ns1:MeasurementXML name="Fillet Length Region Outlier" value="116.9197" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J87:44">
+        <ns1:IndictmentXML indictmentType="Short - Pad" algorithm="surfaceMountConnector" subType="CON_F80S2H6D_P0-5W1-_2" jointType="surfaceMountConnector" imageFileName="bottom210763311x121600842_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:32.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J87" pin="44" packageId="CON_F80S2H6D_P0-5W1-_2"/>
+            <ns1:MeasurementXML name="Short Length" value="0.11399999" units="millimeters"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Short - Pad" algorithm="surfaceMountConnector" subType="CON_F80S2H6D_P0-5W1-_2" jointType="surfaceMountConnector" imageFileName="bottom210763311x121600842_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:32.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J87" pin="44" packageId="CON_F80S2H6D_P0-5W1-_2"/>
+            <ns1:MeasurementXML name="Short Thickness" value="0.10367983" units="millimeters"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J87:46">
+        <ns1:IndictmentXML indictmentType="Short - Pad" algorithm="surfaceMountConnector" subType="CON_F80S2H6D_P0-5W1-_2" jointType="surfaceMountConnector" imageFileName="bottom210763311x121600842_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:33.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J87" pin="46" packageId="CON_F80S2H6D_P0-5W1-_2"/>
+            <ns1:MeasurementXML name="Short Length" value="0.11399999" units="millimeters"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Short - Pad" algorithm="surfaceMountConnector" subType="CON_F80S2H6D_P0-5W1-_2" jointType="surfaceMountConnector" imageFileName="bottom210763311x121600842_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:33.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J87" pin="46" packageId="CON_F80S2H6D_P0-5W1-_2"/>
+            <ns1:MeasurementXML name="Short Thickness" value="0.10313796" units="millimeters"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J87:47">
+        <ns1:IndictmentXML indictmentType="Short - Pad" algorithm="surfaceMountConnector" subType="CON_F80S2H6D_P0-5W1-_2" jointType="surfaceMountConnector" imageFileName="bottom210763311x121600842_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:33.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J87" pin="47" packageId="CON_F80S2H6D_P0-5W1-_2"/>
+            <ns1:MeasurementXML name="Short Length" value="0.11399999" units="millimeters"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Short - Pad" algorithm="surfaceMountConnector" subType="CON_F80S2H6D_P0-5W1-_2" jointType="surfaceMountConnector" imageFileName="bottom210763311x121600842_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:33.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J87" pin="47" packageId="CON_F80S2H6D_P0-5W1-_2"/>
+            <ns1:MeasurementXML name="Short Thickness" value="0.105425864" units="millimeters"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Short - Pad" algorithm="surfaceMountConnector" subType="CON_F80S2H6D_P0-5W1-_2" jointType="surfaceMountConnector" imageFileName="bottom210763311x121600842_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:33.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J87" pin="47" packageId="CON_F80S2H6D_P0-5W1-_2"/>
+            <ns1:MeasurementXML name="Short Length" value="0.11399999" units="millimeters"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Short - Pad" algorithm="surfaceMountConnector" subType="CON_F80S2H6D_P0-5W1-_2" jointType="surfaceMountConnector" imageFileName="bottom210763311x121600842_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:33.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J87" pin="47" packageId="CON_F80S2H6D_P0-5W1-_2"/>
+            <ns1:MeasurementXML name="Short Thickness" value="0.10198233" units="millimeters"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J87:74">
+        <ns1:IndictmentXML indictmentType="Short - Pad" algorithm="surfaceMountConnector" subType="CON_F80S2H6D_P0-5W1-_2" jointType="surfaceMountConnector" imageFileName="bottom224263284x121600842_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:34.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J87" pin="74" packageId="CON_F80S2H6D_P0-5W1-_2"/>
+            <ns1:MeasurementXML name="Short Length" value="0.11399999" units="millimeters"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Short - Pad" algorithm="surfaceMountConnector" subType="CON_F80S2H6D_P0-5W1-_2" jointType="surfaceMountConnector" imageFileName="bottom224263284x121600842_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:34.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J87" pin="74" packageId="CON_F80S2H6D_P0-5W1-_2"/>
+            <ns1:MeasurementXML name="Short Thickness" value="0.10667769" units="millimeters"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J87:75">
+        <ns1:IndictmentXML indictmentType="Short - Pad" algorithm="surfaceMountConnector" subType="CON_F80S2H6D_P0-5W1-_2" jointType="surfaceMountConnector" imageFileName="bottom224263284x121600842_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:35.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J87" pin="75" packageId="CON_F80S2H6D_P0-5W1-_2"/>
+            <ns1:MeasurementXML name="Short Length" value="0.11399999" units="millimeters"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Short - Pad" algorithm="surfaceMountConnector" subType="CON_F80S2H6D_P0-5W1-_2" jointType="surfaceMountConnector" imageFileName="bottom224263284x121600842_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:35.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J87" pin="75" packageId="CON_F80S2H6D_P0-5W1-_2"/>
+            <ns1:MeasurementXML name="Short Thickness" value="0.10754377" units="millimeters"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Short - Pad" algorithm="surfaceMountConnector" subType="CON_F80S2H6D_P0-5W1-_2" jointType="surfaceMountConnector" imageFileName="bottom224263284x121600842_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:35.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J87" pin="75" packageId="CON_F80S2H6D_P0-5W1-_2"/>
+            <ns1:MeasurementXML name="Short Length" value="0.11399999" units="millimeters"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Short - Pad" algorithm="surfaceMountConnector" subType="CON_F80S2H6D_P0-5W1-_2" jointType="surfaceMountConnector" imageFileName="bottom224263284x121600842_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:35.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J87" pin="75" packageId="CON_F80S2H6D_P0-5W1-_2"/>
+            <ns1:MeasurementXML name="Short Thickness" value="0.105080575" units="millimeters"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:J96:6">
+        <ns1:IndictmentXML indictmentType="Insufficient - Barrel" algorithm="throughHole" subType="USB1XG_1" jointType="throughHole" imageFileName="bottom124222336x63502660_10464800x10464800_6_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:35.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Insufficient - Barrel" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="J96" pin="6" packageId="USB1XG_1"/>
+            <ns1:MeasurementXML name="Difference from Nominal Solder Signal" value="0.88153076" units="graylevel"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:PU149:5">
+        <ns1:IndictmentXML indictmentType="Short - Pad" algorithm="quadFlatPackNoLead" subType="QFN17_TH_5X5_1" jointType="quadFlatPackNoLead" imageFileName="bottom410909850x129993764_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:36.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="PU149" pin="5" packageId="QFN17_TH_5X5_1"/>
+            <ns1:MeasurementXML name="Short Length" value="0.076" units="millimeters"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Short - Pad" algorithm="quadFlatPackNoLead" subType="QFN17_TH_5X5_1" jointType="quadFlatPackNoLead" imageFileName="bottom410909850x129993764_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:36.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="PU149" pin="5" packageId="QFN17_TH_5X5_1"/>
+            <ns1:MeasurementXML name="Short Thickness" value="0.06326484" units="millimeters"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Short - Pad" algorithm="quadFlatPackNoLead" subType="QFN17_TH_5X5_1" jointType="quadFlatPackNoLead" imageFileName="bottom410909850x129993764_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:36.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="PU149" pin="5" packageId="QFN17_TH_5X5_1"/>
+            <ns1:MeasurementXML name="Short Length" value="0.247" units="millimeters"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Short - Pad" algorithm="quadFlatPackNoLead" subType="QFN17_TH_5X5_1" jointType="quadFlatPackNoLead" imageFileName="bottom410909850x129993764_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:36.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="PU149" pin="5" packageId="QFN17_TH_5X5_1"/>
+            <ns1:MeasurementXML name="Short Thickness" value="0.070151255" units="millimeters"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:PU219:8">
+        <ns1:IndictmentXML indictmentType="Insufficient - Pad" algorithm="quadFlatPackNoLead" subType="QFN13_2X3_2" jointType="quadFlatPackNoLead" imageFileName="bottom223663336x174381788_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:36.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Insufficient - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="PU219" pin="8" packageId="QFN13_2X3_2"/>
+            <ns1:MeasurementXML name="Center Thickness Percent of Nominal" value="64.88374" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:U8:1139">
+        <ns1:IndictmentXML indictmentType="Short - Pad" algorithm="collapsableBGA" subType="SOCKET4094S_58-5X75-_1" jointType="collapsableBGA" imageFileName="bottom317367619x165657650_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:36.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="U8" pin="1139" packageId="SOCKET4094S_58-5X75-_1"/>
+            <ns1:MeasurementXML name="Short Length" value="0.095" units="millimeters"/>
+        </ns1:IndictmentXML>
+        <ns1:IndictmentXML indictmentType="Short - Pad" algorithm="collapsableBGA" subType="SOCKET4094S_58-5X75-_1" jointType="collapsableBGA" imageFileName="bottom317367619x165657650_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:36.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Short - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="U8" pin="1139" packageId="SOCKET4094S_58-5X75-_1"/>
+            <ns1:MeasurementXML name="Short Thickness" value="0.1111738" units="millimeters"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:U72:1">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="gullwing" subType="TSSOP16XC" jointType="gullwing" imageFileName="bottom159851678x69087739_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:41.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="False Call"/>
+            <ns1:ComponentXML designator="U72" pin="1" packageId="TSSOP16XC"/>
+            <ns1:MeasurementXML name="Fillet Length Percent of Nominal" value="71.35932" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:U72:3">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="gullwing" subType="TSSOP16XC" jointType="gullwing" imageFileName="bottom159851678x69087739_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:41.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="False Call"/>
+            <ns1:ComponentXML designator="U72" pin="3" packageId="TSSOP16XC"/>
+            <ns1:MeasurementXML name="Fillet Length Percent of Nominal" value="74.47288" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:U72:5">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="gullwing" subType="TSSOP16XC" jointType="gullwing" imageFileName="bottom159851678x69087739_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:41.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="False Call"/>
+            <ns1:ComponentXML designator="U72" pin="5" packageId="TSSOP16XC"/>
+            <ns1:MeasurementXML name="Fillet Length Percent of Nominal" value="72.45919" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:U72:7">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="gullwing" subType="TSSOP16XC" jointType="gullwing" imageFileName="bottom159851678x69087739_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:41.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="False Call"/>
+            <ns1:ComponentXML designator="U72" pin="7" packageId="TSSOP16XC"/>
+            <ns1:MeasurementXML name="Fillet Length Percent of Nominal" value="73.02525" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:U73:3">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="gullwing" subType="TSSOP16XC" jointType="gullwing" imageFileName="bottom173451092x72301601_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:44.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="False Call"/>
+            <ns1:ComponentXML designator="U73" pin="3" packageId="TSSOP16XC"/>
+            <ns1:MeasurementXML name="Fillet Length Percent of Nominal" value="74.71104" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:U73:4">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="gullwing" subType="TSSOP16XC" jointType="gullwing" imageFileName="bottom173451092x72301601_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:44.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="False Call"/>
+            <ns1:ComponentXML designator="U73" pin="4" packageId="TSSOP16XC"/>
+            <ns1:MeasurementXML name="Fillet Length Percent of Nominal" value="72.49958" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:U73:5">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="gullwing" subType="TSSOP16XC" jointType="gullwing" imageFileName="bottom173451092x72301601_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:44.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="False Call"/>
+            <ns1:ComponentXML designator="U73" pin="5" packageId="TSSOP16XC"/>
+            <ns1:MeasurementXML name="Fillet Length Percent of Nominal" value="73.97863" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:U73:7">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="gullwing" subType="TSSOP16XC" jointType="gullwing" imageFileName="bottom173451092x72301601_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:44.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="False Call"/>
+            <ns1:ComponentXML designator="U73" pin="7" packageId="TSSOP16XC"/>
+            <ns1:MeasurementXML name="Fillet Length Percent of Nominal" value="74.52173" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:U73:10">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="gullwing" subType="TSSOP16XC" jointType="gullwing" imageFileName="bottom167851408x72301601_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:44.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="False Call"/>
+            <ns1:ComponentXML designator="U73" pin="10" packageId="TSSOP16XC"/>
+            <ns1:MeasurementXML name="Fillet Length Percent of Nominal" value="73.58634" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:U73:12">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="gullwing" subType="TSSOP16XC" jointType="gullwing" imageFileName="bottom167851408x72301601_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:44.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="False Call"/>
+            <ns1:ComponentXML designator="U73" pin="12" packageId="TSSOP16XC"/>
+            <ns1:MeasurementXML name="Fillet Length Percent of Nominal" value="73.637276" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:U73:13">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="gullwing" subType="TSSOP16XC" jointType="gullwing" imageFileName="bottom167851408x72301601_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:44.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="False Call"/>
+            <ns1:ComponentXML designator="U73" pin="13" packageId="TSSOP16XC"/>
+            <ns1:MeasurementXML name="Fillet Length Percent of Nominal" value="72.29333" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+    <ns1:TestXML name="bot:1:U98:2">
+        <ns1:IndictmentXML indictmentType="Open - Pad" algorithm="gullwing" subType="TSSOP16XC" jointType="gullwing" imageFileName="bottom168123442x396270727_10464800x10464800_0_0.jpg">
+            <ns1:RepairActionXML repairTime="2020-05-22T19:02:46.000+08:00" repairOperator="c_admin" repairStatus="False Call" indictmentType="Open - Pad" repairActionType="-" comment="-" componentDisposition="-"/>
+            <ns1:ComponentXML designator="U98" pin="2" packageId="TSSOP16XC"/>
+            <ns1:MeasurementXML name="Fillet Length Percent of Nominal" value="73.92046" units="percent"/>
+        </ns1:IndictmentXML>
+    </ns1:TestXML>
+</ns1:BoardTestXMLExport>
